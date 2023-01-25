@@ -25,7 +25,7 @@ const ENV_VARS = [
 module.exports = {
   // Messenger Platform API
   apiDomain: "https://graph.facebook.com",
-  apiVersion: "v11.0",
+  apiVersion: "v15.0",
 
   // Page and Application information
   pageId: process.env.PAGE_ID,
@@ -36,7 +36,7 @@ module.exports = {
   shopUrl: process.env.SHOP_URL || "https://www.originalcoastclothing.com",
 
   // URL of your app domain. Will be automatically updated.
-  appUrl: process.env.APP_URL || "<App URL>",
+  appUrl: process.env.APP_URL || "https://instagram-testing-service.onrender.com/",
 
   // Preferred port (default to 3000)
   port: process.env.PORT || 3000,
